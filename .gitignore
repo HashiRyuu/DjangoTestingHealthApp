@@ -1,0 +1,12 @@
+# Python virtual environment (recreate it with pip install -r requirements.txt)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local settings and data (copy project/src/.env.example to .env; run migrate to make the database)
+.env
+db.sqlite3
+
+# Editor and OS files
+.DS_Store
